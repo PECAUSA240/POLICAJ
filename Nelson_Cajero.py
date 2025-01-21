@@ -1,5 +1,5 @@
 class CajeroAutomatico:
-    def _init_(self, saldo_inicial=0):
+    def __init__(self, saldo_inicial=0):
         self.saldo = saldo_inicial
 
     def consultar_saldo(self):
