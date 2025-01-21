@@ -27,6 +27,7 @@ def mostrar_historial(nombre_archivo):
             for linea in archivo:
                 datos = linea.split()
                 if len(datos) != 5:  # Asegurarse de que la línea tenga el número correcto de columnas
+                    #Mensaje de error en la línea
                     print(f"Error en la línea: {linea.strip()} (Formato incorrecto)")
                     continue
 
