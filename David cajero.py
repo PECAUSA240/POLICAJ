@@ -166,4 +166,4 @@ def menu_principal():
 
 # Ejecutar el programa
 if _name_ == "_main_":
-    menu_principal(
+    menu_principal()
