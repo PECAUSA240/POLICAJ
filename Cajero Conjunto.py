@@ -1,1 +1,1 @@
-prinf("Pa")
+print("Pa")
