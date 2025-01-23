@@ -165,5 +165,5 @@ def menu_principal():
             print("Opción no válida. Intente nuevamente.")
 
 # Ejecutar el programa
-if _name_ == "_main_":
+if __name__ == "_main_":
     menu_principal()
