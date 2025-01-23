@@ -1,4 +1,4 @@
-#Definir clase
+#Definir clase al inicio del codgio
 class Transferencia:
     def __init__(self, id, remitente, destinatario, monto, fecha):
         self.id = id
